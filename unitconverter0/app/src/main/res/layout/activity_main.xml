@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FAFAFA">
+
+    <EditText
+        android:id="@+id/inputValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter value"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="?android:attr/editTextBackground"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/fromUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/toUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:background="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:elevation="4dp"/>
+
+</LinearLayout>

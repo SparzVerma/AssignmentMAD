@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/selectedFolderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Folder" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capture Photo"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Gallery"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
